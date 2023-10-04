@@ -70,7 +70,7 @@ scroll-behavior: smooth;
    min-height: 100px;
 }
 
-h2{
+.subheadings{
  
   text-transform: uppercase;
   background-image: linear-gradient(
@@ -86,11 +86,14 @@ h2{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 8s linear infinite;
-  display: inline-block;
     font-size: 30px;
-    margin-left: 0.5rem;
     margin-top: 2rem;
+   text-align: center;
 
+}
+
+.list{
+  margin-top: 1rem;
 }
 
 
@@ -107,8 +110,7 @@ h2{
 .text{
    
     margin: 1rem 0.5rem;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    text-align: center;
 }
 
 .frame{
@@ -140,7 +142,12 @@ h2{
 .link2{
    
   margin: 0px 0.5rem;
-  font-size: 1.1rem;
+  text-align: center;
+}
+
+#relArt{
+
+  margin-bottom: 2rem;
 }
 
 .footer{
@@ -153,6 +160,10 @@ h2{
   padding-bottom: 3rem;
 }
 
+.footText{
+  text-align: center;
+}
+
 @media (min-width:1024px) {
 
   .navBar{
@@ -160,11 +171,34 @@ h2{
     justify-content: space-evenly;
   }
 
+  .subheadings{
+    text-align: left;
+    margin-left: 0.5rem;
+    display: inline-block;
+  }
+
+  
+.text{
+   
+  margin: 1rem 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+
   .frame{
     margin-top: 2rem; 
     margin-left: 0.5rem;
     width: 50%;
     height: 60vh;
+}
+
+.link2{
+   
+  margin: 0px 0.5rem;
+  font-size: 1.1rem;
+  text-align: left;
 }
   
 }
@@ -175,6 +209,29 @@ h2{
       display: flex;
       justify-content: space-evenly;
     }
+
+    .subheadings{
+      text-align: left;
+      margin-left: 0.5rem;
+      display: inline-block;
+    }
+
+    .link2{
+   
+      margin: 0px 0.5rem;
+      font-size: 1.1rem;
+      text-align: left;
+    }
+
+    
+.text{
+   
+  margin: 1rem 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
 
     .frame{
       margin-top: 2rem; 
@@ -192,5 +249,28 @@ h2{
     width: 60%;
     height: 40vh;
 }
+
+.link2{
+   
+  margin: 0px 0.5rem;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+
+.text{
+   
+  margin: 1rem 0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.subheadings{
+  text-align: left;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
   
 }
